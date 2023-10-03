@@ -1,0 +1,29 @@
+.Connect-wallet-button {
+  display: inline-flex !important;
+  font-family: var(--main-font-family-regular) !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  color: #b39d74 !important;
+  background-color: transparent !important;
+  border: 1px solid rgba(81, 81, 81, 0.8) !important;
+  backdrop-filter: blur(50px) !important;
+}
+
+.Connect-wallet-button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+#mobile .wallet-adapter-button {
+  padding: 0 12px !important;
+  border: 0px !important;
+}
+
+#mobile .wallet-adapter-button:hover {
+  border: 0px !important;
+}
+
+#mobile .wallet-adapter-button-start-icon {
+  margin-right: 0px !important;
+}

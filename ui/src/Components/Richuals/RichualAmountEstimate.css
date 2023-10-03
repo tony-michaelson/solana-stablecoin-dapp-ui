@@ -1,0 +1,19 @@
+.estimate-box {
+  padding: 15px;
+  background: rgba(12, 28, 43, 0.3);
+  border: 1px solid rgba(81, 81, 81, 0.8);
+  backdrop-filter: blur(40px);
+
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+
+  background: linear-gradient(164.04deg, #bc3926 -98.65%, #eeb854 88.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

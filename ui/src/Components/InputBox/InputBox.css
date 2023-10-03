@@ -1,0 +1,28 @@
+.inputbox {
+  padding: 5px;
+  background: rgba(12, 28, 43, 0.3);
+  border: 1px solid rgba(81, 81, 81, 0.8);
+  backdrop-filter: blur(40px);
+}
+
+.inputbox-flex-grow {
+  flex-grow: 1;
+}
+
+.inputbox-flex {
+  display: flex;
+}
+
+.inputbox-max {
+  cursor: pointer;
+  width: 50px;
+  text-align: center !important;
+  padding-top: 8px;
+  color: #d59e4b;
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: right;
+}

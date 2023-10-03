@@ -1,0 +1,238 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: url('background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #0c1c2b;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#mobile {
+  min-width: 320px;
+}
+
+@font-face {
+  font-family: Volkhov-Regular;
+  src: url('../../../public/fonts/Volkhov/Volkhov-Regular.ttf');
+}
+
+@font-face {
+  font-family: Volkhov-Bold;
+  src: url('../../../public/fonts/Volkhov/Volkhov-Bold.ttf');
+}
+
+:root {
+  --main-font-family-regular: Volkhov-Regular;
+  --text-small: 12px;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.align-bottom {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.label-value-box {
+  padding: 15px;
+}
+
+.box-padded-medium {
+  padding: 15px !important;
+}
+
+.box-explanation {
+  min-height: 350px;
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(81, 81, 81, 0.8);
+  background: rgba(12, 28, 43, 0.3);
+}
+
+.text-header-white {
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.text-white {
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.text-description {
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+}
+
+.text-attention {
+  color: #b39d74;
+  font-weight: bold;
+}
+
+.text-explanation-body {
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #cbd5e1;
+}
+
+.text-explanation-label-white {
+  font-family: var(--main-font-family-regular);
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.text-modal-label-white {
+  font-family: var(--main-font-family-regular);
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.text-label-gold {
+  font-family: var(--main-font-family-regular);
+  color: #b39c74;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 5px;
+}
+
+.text-label-white {
+  font-family: var(--main-font-family-regular);
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 5px;
+}
+
+.text-stat-value {
+  font-family: var(--main-font-family-regular);
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 100%;
+  padding: 5px;
+}
+
+.flex-container {
+  margin: 20px;
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.min-content {
+  width: min-content !important;
+}
+
+/* Data Lists */
+.flex-row {
+  margin: 20px;
+  display: flex;
+  min-height: 50px;
+  background: rgba(12, 28, 43, 0.3);
+  border: 1px solid rgba(81, 81, 81, 0.8);
+  backdrop-filter: blur(50px);
+}
+
+.flex-row-transparent {
+  margin: 20px;
+  display: flex;
+  min-height: 50px;
+}
+
+.flex-column {
+  padding: 0.5em;
+  flex-grow: 1;
+}
+
+.flex-align-start {
+  align-self: flex-start;
+}
+
+.col-label-gold {
+  font-family: var(--main-font-family-regular);
+  color: #b29c74;
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--text-small);
+  line-height: 13px;
+  padding: 5px;
+}
+
+.col-label-white {
+  font-family: var(--main-font-family-regular);
+  color: white;
+  padding: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-small);
+  line-height: 13px;
+}
+
+.col-text-white {
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+  padding: 5px;
+}
+/* End Data Lists */

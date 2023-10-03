@@ -1,0 +1,53 @@
+.Nav-bar {
+  background: rgba(12, 28, 43, 0.2) !important;
+  backdrop-filter: blur(13px);
+  width: 100% !important;
+}
+
+.Nav-divider {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.Nav-cell-center {
+  text-align: center !important;
+}
+
+.Nav-cell-middle {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Nav-link {
+  color: #b29c74;
+  text-decoration: none;
+
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  /* identical to box height, or 18px */
+
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-feature-settings: 'ss02' on;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+  .Nav-link {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .Nav-link {
+    font-size: 11px;
+  }
+}
+
+.Nav-logo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,110 @@
+.lock-duration-container {
+  display: flex;
+}
+
+.lock-duration-col,
+.lock-duration-col-selected {
+  cursor: pointer;
+  flex-grow: 1;
+  background: rgba(12, 28, 43, 0.3);
+  border: 1px solid rgba(81, 81, 81, 0.8);
+  backdrop-filter: blur(40px);
+}
+
+.lock-duration-col-selected {
+  border: 2px solid #b3953b;
+  position: relative;
+}
+
+#desktop .lock-duration-col,
+.lock-duration-col-selected {
+  padding: 10px;
+  margin: 10px;
+}
+
+#mobile .lock-duration-col,
+.lock-duration-col-selected {
+  padding: 5px;
+  margin: 5px;
+}
+
+#mobile .lock-duration-highest-return {
+  display: none;
+}
+
+#mobile .lock-duration-highest-return-label {
+  display: none;
+}
+
+.lock-duration-option-label {
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #ffffff;
+}
+
+.lock-duration-option-description {
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-small);
+  line-height: 13px;
+  color: white;
+  text-align: center;
+}
+
+.lock-duration-container-label {
+  color: white;
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-small);
+  line-height: 13px;
+}
+
+.lock-duration-highest-return {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  width: 90px;
+}
+
+.lock-duration-highest-return-label {
+  position: absolute;
+  top: -7px;
+  left: 28px;
+  font-family: var(--main-font-family-regular);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: center;
+}
+
+.lock-duration-selected-corner-top-right {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+}
+
+.lock-duration-selected-corner-top-left {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+
+.lock-duration-selected-corner-bottom-left {
+  position: absolute;
+  bottom: -4px;
+  left: -4px;
+}
+
+.lock-duration-selected-corner-bottom-right {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}

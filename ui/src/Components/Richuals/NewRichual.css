@@ -1,0 +1,85 @@
+.brew-connector-container {
+  width: 50px;
+  z-index: 50;
+}
+
+.brew-connector-top {
+  position: relative;
+  z-index: 52;
+  top: 45px;
+  height: 40px;
+  width: 23px;
+  border-top: 1px solid #bc3926;
+  border-right: 1px solid #bc3926;
+  border-top-right-radius: 7px;
+}
+
+.brew-connector-bottom,
+.brew-connector-bottom-disabled {
+  position: relative;
+  z-index: 52;
+  top: 36px;
+  height: 30px;
+  width: 23px;
+  border-bottom: 1px solid #eeb854;
+  border-right: 1px solid #eeb854;
+  border-bottom-right-radius: 7px;
+}
+
+.brew-connector-bottom-disabled {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.brew-connector-matabox {
+  position: relative;
+  z-index: 51;
+  top: -7px;
+  height: 140px;
+  width: 45px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-top: 1px solid #eeb854;
+  border-bottom: 1px solid #eeb854;
+  border-right: 1px solid #eeb854;
+}
+
+.brew-connector-matabox-border-cover {
+  position: relative;
+  background-color: black;
+  top: -1px;
+  height: 1px;
+  width: 15px;
+}
+
+.brew-icon-bg,
+.brew-icon-bg-disabled {
+  position: relative;
+  z-index: 53;
+  top: 36px;
+  left: 11px;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  background: linear-gradient(164.1deg, #bc3926 -98.73%, #eeb854 88.96%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.brew-icon-bg:hover {
+  background: linear-gradient(164.1deg, #eeb854 88.96%, #bc3926 -98.73%);
+}
+
+.brew-icon-bg-disabled {
+  background: gray;
+}
+
+.brew-icon-bg-disabled:hover {
+  background: linear-gradient(164.1deg, #eeb854 88.96%, #bc3926 -98.73%);
+}
+
+.brew-icon {
+  position: relative;
+  z-index: 53;
+  top: 4px;
+  left: 4px;
+}
